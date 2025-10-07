@@ -11,7 +11,7 @@
 .DATE
     October 7, 2025
 .NOTES
-    WARNING: This will overwrite existing policies.json on device and will not override GPO policy nor MDM configuration profiles for Mozilla Firefox.
+    WARNING: This will overwrite existing policies.json on device. This will not override GPO policy nor MDM configuration profiles for Mozilla Firefox if already in place.
 #>
  
 $dest_folder = "C:\Program Files\Mozilla Firefox\distribution"
